@@ -18,12 +18,18 @@ codeceptjs run
 
 # Run with Allure Report plugin
 
-To generate a report with Allure plugin, run the following command:
+To generate a report with Allure plugin, first you need to install the command line package globally:
+
+```
+npm install -g allure-commandline
+```
+
+Then, for running the tests with generation of allure report:
 
 ```
 codeceptjs run --plugins allure
 ```
-Then, for visualizing the report, run:
+Finnaly, for visualizing the report, run:
 
 ```
 allure serve output
