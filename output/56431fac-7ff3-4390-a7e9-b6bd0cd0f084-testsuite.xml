@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1607479406800' stop='1607479407706'>
+    <name>Get people api star wars:</name>
+    <title>Get people api star wars:</title>
+    <test-cases>
+        <test-case start='1607479406800' status='passed' stop='1607479407703'>
+            <name>GET request for planets api - star wars</name>
+            <title>GET request for planets api - star wars</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1607479406804' status='passed' stop='1607479407703'>
+                    <name>I send get request "/planets/1/"</name>
+                    <title>I send get request "/planets/1/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

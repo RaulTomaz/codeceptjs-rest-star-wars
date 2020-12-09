@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1607478854400' stop='1607478854414'>
+    <name>Get people api star wars:</name>
+    <title>Get people api star wars:</title>
+    <test-cases>
+        <test-case start='1607478854402' status='failed' stop='1607478854409'>
+            <name>GET request for people api - star wars</name>
+            <title>GET request for people api - star wars</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>getPeopleEndpoint is not defined</message>
+                <stack-trace>ReferenceError: getPeopleEndpoint is not defined
+                    at Test.&lt;anonymous> (/Users/rautomaz/Documents/estudos/codeceptjs-rest-star-wars/tests/GET_people_test.js:7:17)
+                    at Context.test.fn (/usr/local/lib/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runner.js:621:10)
+                    at /usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runner.js:745:12
+                    at next (/usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runner.js:538:14)
+                    at /usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runner.js:548:7
+                    at next (/usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/usr/local/lib/node_modules/codeceptjs/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
