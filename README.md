@@ -2,10 +2,18 @@
 
 API automation - basic structure using CodeceptJS
 
-To Run the tests, simply run the command:
+To Run the tests, you must do the following:
+
+- Install codeceptjs globally by putting in the command line:
 
 ```
-npm test
+npm install -g codeceptjs
+```
+
+- Run the command:
+
+```
+codeceptjs run
 ```
 
 # Run with Allure Report plugin
