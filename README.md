@@ -14,7 +14,7 @@ To generate a report with Allure plugin, run the following command:
 
 ```
 codeceptjs run --plugins allure
-
+```
 Then, for visualizing the report, run:
 
 ```
